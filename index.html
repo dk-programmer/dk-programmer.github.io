@@ -1,70 +1,78 @@
 <!DOCTYPE HTML>
-<!-- Google Analytics -->
-<script>
-	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-	})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-	
-	ga('create', '257625394', 'auto');
-	ga('send', 'pageview');
-	</script>
-	<!-- End Google Analytics -->
 <html>
 	<head>
-		
 		<title>DK Programmer</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
+        <link rel="stylesheet" href="assets/css/custom.css" />
+		<link rel="stylesheet" href="assets/css/modal.css" />
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
 	</head>
-	<body class="is-preload">
 
+
+	<body class="is-preload">
 		<!-- Wrapper -->
 			<div id="wrapper" class="fade-in">
-
 				<!-- Intro -->
+                <div id="headerpos"></div>
 					<div id="intro">
-						<p>Dominik Kulpok</br> alias</p>
-						<h1>DK Programmer<br />
-						</h1>
-						<p>
-							C#, Java, Unity3D, GameDev
-						</p>
+                        <div class="rotated_box">
+                            <div class="wrapper">
+                                <div class="spacer"></div>
+                                <p>Dominik Kulpok</br> alias</p>
+                                <h1>DK Programmer<br />
+                                </h1>
+                                <p>
+                                    C#, Java, Unity3D, GameDev
+                                </p>
+
+                            </div>
+                        </div>
+
 						<ul class="actions">
-							<li><a href="#header" class="button icon solid solo fa-arrow-down scrolly">Continue</a></li>
+							<li><a href="#aboutme" class="button icon solid solo fa-arrow-down scrolly">Continue</a></li>
 						</ul>
 					</div>
 
-				<!-- Header -->
-					<header id="header">
-						<a href="https://www.adk-games.com/" class="logo">Current Project</a>
+				<!-- Header 
+					<header id="header" class="logo">
+                        <div class="rotated_box">
+                            <div class="wrapper">
+						        <a href="https://www.adk-games.com/">Current Project</a>
+                            </div>
+                        </div>
 					</header>
-
+-->
 				<!-- Nav -->
-					<nav id="nav">
-						<ul class="links">
-							<li class="active"><a href="index.html">About me</a></li>
-							<!--<li><a href="generic.html">Contact</a></li>-->
-						</ul>
-						<ul class="icons">
-							<li><a href="https://www.linkedin.com/in/dominik-kulpok/" class="icon brands fa-linkedin"><span class="label">Twitter</span></a></li>
-							<li><a href="https://twitter.com/adk_games_DK" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
-							<!--<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li> -->
-							<li><a href="https://www.instagram.com/dkprogrammer/" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
-							<li><a href="https://github.com/dk-programmer" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
-						</ul>
-					</nav>
-
-				<!-- Main -->
-					<div id="main">
-
-						<!-- Featured Post -->
-
+                <div id="main" class="rotated_box">
+                    <div class="wrapper">
+                    <nav id="nav">
+                        <ul class="links">
+                            <li><a href="#headerpos">Header</a></li>
+                            <li><a href="#aboutme">About me</a></li>
+                            <li><a href="#portfolio">Projects</a></li>
+							<li><a href="#events">Events</a></li>
+                            <li><a href="#smallprojects">Small Projects</a></li>
+                            <li><a href="#cv">CV</a></li>
+                        </ul>
+                        <ul class="icons">
+                            <li><a href="https://www.linkedin.com/in/dominik-kulpok/" class="icon brands fa-linkedin"><span class="label">Twitter</span></a></li>
+                            <li><a href="https://twitter.com/adk_games_DK" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
+                            <!--<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li> -->
+                            <li><a href="https://www.instagram.com/dkprogrammer/" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
+                            <li><a href="https://github.com/dk-programmer" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+<div class="spacer"></div>
+				<!-- Portfolio -->
+					<div  class="rotated_box">
+                        <div id="main" class="wrapper">
 							<article class="post featured">
 								<header class="major">
-									<h2> <!--<a href="#">--> Who am I?</h2>
+									<h2 id = "aboutme"> <!--<a href="#">--> Who am I?</h2>
 									<p>I'm a computer science student living in Berlin, specialized in creating games and worlds in Unity3D. 
 										The joy of creating games started more than six years ago with some small prototype games. 
 										After a period of self education and leading two indie game projects, I entered the gaming industry.
@@ -74,8 +82,370 @@
 								<a href="https://www.linkedin.com/in/dominik-kulpok/" class="image main"><img src="images/main1.png" alt="" /></a>
 							</article>
 
-						<!-- Posts -->
-						<h2>My Projects</h2>
+
+						<!-- Projects -->
+
+						<!--<button id="modal-button-0" class="modal-button">Open Modal</button><!--Voice Inside-->
+						<!--<button id="modal-button-1" class="modal-button">Open Modal</button><!--Klick:Forensik-->
+						<!--<button id="modal-button-2" class="modal-button">Open Modal</button><!--Bunnyhop-->
+						<!--<button id="modal-button-3" class="modal-button">Open Modal</button><!--FoFaBe-->
+						<!--<button id="modal-button-4" class="modal-button">Open Modal</button><!--Light Project-->
+						<!--<button id="modal-button-5" class="modal-button">Open Modal</button><!--Us United-->
+						<!--<button id="modal-button-6" class="modal-button">Open Modal</button><!--AI Game-->
+						<!--<button id="modal-button-7" class="modal-button">Open Modal</button><!--Yoshi Jump-->
+						<!--<button id="modal-button-8" class="modal-button">Open Modal</button><!--Keep N Eye On It-->
+
+						<!--<button id="modal-button-6" class="modal-button">Open Modal</button><!--multimodal game-->
+						<!--<button id="modal-button-6" class="modal-button">Open Modal</button>java builde-->
+
+					</div>
+				</div>
+				<div class="spacer"></div>
+				<div  class="rotated_box">
+					<div id="main" class="wrapper">
+
+						<h2 id="portfolio">My Projects</h2>
+						<h6 class="centered">Click on the tiles to learn more about each project.</h6>
+							
+						<div class="container centered">
+							<div class="row justify-content-md-cente">
+								<div class="row">
+									<!--The Voice Inside-->
+									<div class="col-4 col-12-small col-12-xsmall col-12-xxsmall col-6-medium col-4-large col-4-xlarge projectcontainer">
+										<article id="modal-button-0" class="hoveranimation">
+											<header>
+												<h2>The Voice Inside</h2>
+											</header>
+											<div class="imgcontainer" ><img src="https://steamcdn-a.akamaihd.net/steam/apps/1032280/header.jpg?t=1608807846" alt="" /></div>
+											<div class="tag-container">
+												<div class="tag engine">Unity3D</div>
+												<div class="tag engine">C#</div>
+												<div class="tag engine">PC</div>
+											</div>
+											<div class="tag-container">
+												<div class="tag gametag">Psychological</div>
+												<div class="tag gametag">Horror</div>
+												<div class="tag gametag">Platformer</div>
+												<div class="tag gametag">Voicecontroled</div>
+											</div>
+											<div class="tag-container">
+												<div class="tag langtag">ENG </div>
+												<div class="tag company">ADK-Games </div>
+											</div>
+										</article>
+									</div>
+									<!--Klick Forensik-->	
+									<div class="col-4 col-12-small col-12-xsmall col-12-xxsmall col-6-medium col-4-large col-4-xlarge projectcontainer">
+										<article id="modal-button-1" class="hoveranimation">
+											<header>
+												<h2>Klick:Forensik</h2>
+											</header>
+											<div class="imgcontainer"><img src="images/klickforensik.jpg" alt="" /></div>
+											<div class="tag-container">
+												<div class="tag engine">Unity3D</div>
+												<div class="tag engine">C#</div>
+												<div class="tag engine">WebGL</div>
+											</div>		
+											<div class="tag-container">
+												<div class="tag gametag">Serious-Game</div>
+												<div class="tag gametag">Point & Click</div>
+												<div class="tag gametag">2D</div>
+												<div class="tag gametag">Blended Learning</div>
+												<div class="tag gametag">Criminal Case</div>
+											</div>
+											<div class="tag-container">
+												<div class="tag langtag">Ger</div>
+												<div class="tag company">HWR Berlin</div>
+											</div>
+										</article>
+									</div>
+									<!--BunnyHop-->	
+									<div class="col-4 col-12-small col-12-xsmall col-12-xxsmall col-6-medium col-4-large col-4-xlarge projectcontainer">
+										<article id="modal-button-2" class="hoveranimation">
+											<header>
+												<h2>Bunny Hop!</h2>
+											</header>
+											<div class="imgcontainer"><img src="images/bunnyhop.png" alt="" /></div>
+											<div class="tag-container">
+												<div class="tag engine">Unity3D</div>
+												<div class="tag engine">C#</div>
+												<div class="tag engine">Java</div>
+												<div class="tag engine">Android</div>
+											</div>		
+											<div class="tag-container">
+												<div class="tag gametag">Serious-Game</div>
+												<div class="tag gametag">Draw & Jump</div>
+												<div class="tag gametag">2D</div>
+												<div class="tag gametag">Cute</div>
+												<div class="tag gametag">Gore</div>
+											</div>
+											<div class="tag-container">
+												<div class="tag langtag">Eng</div>
+												<div class="tag langtag">Ger</div>
+												<div class="tag company">ADK-Games</div>
+											</div>
+										</article>
+									</div>
+									<!--FOFABE-->	
+									<div class="col-4 col-12-small col-12-xsmall col-12-xxsmall col-6-medium col-4-large col-4-xlarge projectcontainer">
+										<article id="modal-button-3" class="hoveranimation">
+											<header>
+												<h2>FoFaBe</h2>
+											</header>
+											<div class="imgcontainer"><img src="images/fofabe.png" alt="" /></div>
+											<div class="tag-container">
+												<div class="tag engine">Unity3D</div>
+												<div class="tag engine">C#</div>
+												<div class="tag engine">PC</div>
+											</div>		
+											<div class="tag-container">
+												<div class="tag gametag">Serious-Game</div>
+												<div class="tag gametag">Point & Click</div>
+												<div class="tag gametag">3D</div>
+												<div class="tag gametag">Blended Learning</div>
+												<div class="tag gametag">Criminal Case</div>
+											</div>
+											<div class="tag-container">
+												<div class="tag langtag">Ger</div>
+												<div class="tag company">HWR Berlin</div>
+											</div>
+										</article>
+									</div>
+									<!--Light project-->	
+									<div class="col-4 col-12-small col-12-xsmall col-12-xxsmall col-6-medium col-4-large col-4-xlarge projectcontainer" >
+										<article id="modal-button-4" class="hoveranimation">
+											<header>
+												<h2>Street Lights</h2>
+											</header>
+											<div class="imgcontainer"><img src="images/lightproject.png" alt="" /></div>
+											<div class="tag-container">
+												<div class="tag engine">Unity3D</div>
+												<div class="tag engine">C#</div>
+												<div class="tag engine">Flutter (Integrated)</div>
+												<div class="tag engine">Android</div>
+											</div>		
+											<div class="tag-container">
+												<div class="tag gametag">Application</div>
+												<div class="tag gametag">Street Measuring</div>
+												<div class="tag gametag">Visualisation</div>
+												<div class="tag gametag">Simulating of Standartized Street Lights</div>
+												<div class="tag gametag">Application</div>
+											</div>
+											<div class="tag-container">
+												<div class="tag langtag">Eng</div>
+												<div class="tag langtag">Thai</div>
+												<div class="tag company">Ligting-Reality</div>
+											</div>
+										</article>
+									</div>		
+									<!--US United-->	
+									<div class="col-4 col-12-small col-12-xsmall col-12-xxsmall col-6-medium col-4-large col-4-xlarge projectcontainer">
+										<article id="modal-button-5" class="hoveranimation">
+											<header>
+												<h2>Us United</h2>
+											</header>
+											<div class="imgcontainer"><img src="images/usunited.png" alt="" /></div>
+											<div class="tag-container">
+												<div class="tag engine">Unity3D</div>
+												<div class="tag engine">C#</div>
+												<div class="tag engine">PC</div>
+											</div>		
+											<div class="tag-container">
+												<div class="tag gametag">Roguelike</div>
+												<div class="tag gametag">Deckbuilder</div>
+												<div class="tag gametag">Online Co-Op</div>
+												<div class="tag gametag">Deckbuilding</div>
+												<div class="tag gametag">Adventure</div>
+												<div class="tag gametag"> Turn-Based</div>
+											</div>
+											<div class="tag-container">
+												<div class="tag langtag">Eng</div>
+												<div class="tag company">DT Games</div>
+											</div>
+										</article>
+									</div>	
+									<!--Ai Game-->	
+									<div class="col-4 col-12-small col-12-xsmall col-12-xxsmall col-6-medium col-4-large col-4-xlarge projectcontainer">
+										<article id="modal-button-6" class="hoveranimation">
+											<header>
+												<h2>AI Game</h2>
+											</header>
+											<div class="imgcontainer"><img src="images/aigame.png" alt="" /></div>
+
+											<div class="tag-container">
+												<div class="tag engine">Unity3D</div>
+												<div class="tag engine">C#</div>
+												<div class="tag engine">Html/NodeJS</div>
+												<div class="tag engine">SQL</div>
+												<div class="tag engine">WebGL</div>
+											</div>		
+											<div class="tag-container">
+												<div class="tag gametag">Serious-Game</div>
+												<div class="tag gametag">Puzzle</div>
+												<div class="tag gametag">GPT</div>
+												<div class="tag gametag">AI-Assistant</div>
+												<div class="tag gametag">Procedual World</div>
+											</div>
+											<div class="tag-container">
+												<div class="tag langtag">Eng</div>
+												<div class="tag company">TU-Berlin (Thesis)</div>
+											</div>
+										</article>
+									</div>		
+									<!--Yoshi-->	
+									<div class="col-4 col-12-small col-12-xsmall col-12-xxsmall col-6-medium col-4-large col-4-xlarge projectcontainer">
+										<article id="modal-button-7" class="hoveranimation">
+											<header>
+												<h2>Yoshi Game</h2>
+											</header>
+											<div class="imgcontainer"><img src="images/yashijump.png" alt="" /></div>
+											<div class="tag-container">
+												<div class="tag engine">Unity3D</div>
+												<div class="tag engine">C#</div>
+												<div class="tag engine">WebGL</div>
+											</div>		
+											<div class="tag-container">
+												<div class="tag gametag">Platformer</div>
+												<div class="tag gametag">Jump & Run</div>
+												<div class="tag gametag">Local-Coop</div>
+											</div>
+											<div class="tag-container">
+												<div class="tag company">Test Project</div>
+											</div>
+										</article>
+									</div>											
+									<!--Keep n eye on it-->	
+									<div class="col-4 col-12-small col-12-xsmall col-12-xxsmall col-6-medium col-4-large col-4-xlarge projectcontainer">
+										<article id="modal-button-8" class="hoveranimation">
+											<header>
+												<h2>Keep'N Eye On It</h2>
+											</header>
+											<div class="imgcontainer"><img src="images/keepneyeonit.png" alt="" /></div>
+
+											<div class="tag-container">
+												<div class="tag engine">Unity3D</div>
+												<div class="tag engine">C#</div>
+												<div class="tag engine">PC</div>
+											</div>		
+											<div class="tag-container">
+												<div class="tag gametag">Casual</div>
+												<div class="tag gametag">Local-Coop</div>
+												<div class="tag gametag">Cooking</div>
+												<div class="tag gametag">Belts</div>
+												<div class="tag gametag">Cute</div>
+											</div>
+											<div class="tag-container">
+												<div class="tag langtag">Eng</div>
+												<div class="tag company">Showoff</div>
+											</div>
+										</article>
+									</div>	
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="spacer"></div>
+				<div  class="rotated_box">
+					<div id="main" class="wrapper container centered">
+						<h2 id="events">Events</h2>
+						<h6 class="centered">Attendet Events</h6>
+
+							<section class="posts">
+								<article>
+									<header>
+										<h3>Game Daily Connect
+										</h3>
+									</header>
+								</article>
+
+								<article>
+									<header>
+										<h3>Game Access
+										</h3>
+									</header>
+								</article>
+
+								<article>
+									<header>
+										<h3>Tokyo Game Show
+										</h3>
+									</header>
+								</article>
+
+								<article>
+									<header>
+										<h3>Amaze
+										</h3>
+									</header>
+								</article>
+							</section>
+						</div>	
+
+				</div>
+				<div class="spacer"></div>
+				<div  class="rotated_box">
+					<div id="main" class="wrapper">
+						<h2 id="smallprojects">Small Projects</h2>
+						<h6 class="centered">Click on the buttons</h6>
+							<div class="container centered">
+								<div class="row justify-content-md-cente">
+									<!--Keep n eye on it-->	
+									<div class="col-4 col-12-small col-12-xsmall col-12-xxsmall col-6-medium col-4-large col-4-xlarge projectcontainer">
+										<article id="modal-button-8" class="hoveranimation">
+											<header>
+												<h2>Multimodal Game</h2>
+											</header>
+											<div class="imgcontainer"><img src="images/multimodalgame.png" alt="" /></div>
+
+											<div class="tag-container">
+												<div class="tag engine">Unity3D</div>
+												<div class="tag engine">C#</div>
+												<div class="tag engine">PC</div>
+											</div>		
+											<div class="tag-container">
+												<div class="tag gametag">Multimodal Input</div>
+												<div class="tag gametag">Platformer</div>
+												<div class="tag gametag">Voicecontroled</div>
+											</div>
+											<div class="tag-container">
+												<div class="tag company">TU-Berlin (Project)</div>
+											</div>
+											<p>A simple Platformer, in which you can solve simple puzzles with the combination of standart keyboard controll and voice recognition</p>
+											<a href="https://github.com/dk-programmer/Multimodal-Game-Build" class="button">Build on git!</a>
+											<a href="https://github.com/dk-programmer/Multimodal-Game" class="button">Source on git!</a>
+										</article>
+									</div>	
+									<!--Keep n eye on it-->	
+									<div class="col-4 col-12-small col-12-xsmall col-12-xxsmall col-6-medium col-4-large col-4-xlarge projectcontainer">
+										<article id="modal-button-8" class="hoveranimation">
+											<header>
+												<h2>Word count visualizer</h2>
+											</header>
+											<div class="imgcontainer"><img src="images/" alt="" /></div>
+
+											<div class="tag-container">
+												<div class="tag engine">Java</div>
+												<div class="tag engine">Processing</div>
+												<div class="tag engine">PC</div>
+											</div>		
+											<div class="tag-container">
+												<div class="tag gametag">Application</div>
+											</div>
+											<div class="tag-container">
+												<div class="tag langtag">Eng</div>
+												<div class="tag langtag">Jap</div>
+												<div class="tag company">HU-Berlin (Project)</div>
+											</div>
+											<p>Compares two texts for certain word groups. Created to visualize the difference from the use of pronounce groups in eng-jap or old japanese-jap.</p>
+											<a href="https://github.com/dk-programmer/TextWordCountVisualization" class="button">Visit on git!</a>
+										</article>
+									</div>	
+								</div>
+							</div>
+<!--
+
+
 							<section class="posts">
 								<article>
 									<header>
@@ -89,19 +459,7 @@
 										<li><a href="The Voice Inside - Unity Connect.html" class="button">Documentation</a></li>
 									</ul>
 								</article>
-								<article>
-									<header>
-										<h2><a href="#">Klick:Forensik</h2>
-									</header>
-									<a href="images/pic03.jpg" class="image fit"><img src="images/pic03.jpg" alt="" /></a>
-									<p>Serious-Game around the topic „Weniger Kerzen auf den Gräbern!“ - 
-										Entwurf eines Blended-Learning-Konzepts zum 
-										Erkennen nicht natürlicher Todesfälle. In this Point&Click game you have to find all important evidences and decide whether or not it is a natural death cause.</p>
-										<p>Password is 'klick'</p>
-									<ul class="actions special">
-										<li><a class="button" href="https://dk-programmer.github.io/Klick-Forensik/" target="popup" onclick="window.open('https://dk-programmer.github.io/Klick-Forensik/','name','width=800,height=600')">Open game in new window</a></li>
-									</ul>
-								</article>
+		
 								<article>
 									<header>
 										<h2><a href="Bunny Hop 2D - Unity Connect.html">Bunny Hop!</h2>
@@ -127,7 +485,7 @@
 								</article>
 							</section>
 							<hr>
-							<h2> University/Small projects</h2>
+							<h2 id="smallprojects"> University/Small projects</h2>
 							<section>
 								<article>
 									<header>
@@ -150,79 +508,159 @@
 									</ul>
 								</article>
 							</section>
-
-						<!-- Footer -->
-							<footer>
-								<div class="pagination">
-									<!--<a href="#" class="previous">Prev</a>-->
-
-									<!--									<a href="#" class="page active">1</a>
-									<a href="#" class="page">2</a>
-									<a href="#" class="page">3</a>
-									<span class="extra">&hellip;</span>
-									<a href="#" class="page">8</a>
-									<a href="#" class="page">9</a>
-									<a href="#" class="page">10</a>
-									<a href="#" class="next">Next</a> -->
-								</div>
-							</footer>
-
+                        </div>
 					</div>
-
-				<!-- Footer 
-					<footer id="footer">
-						<section>
-							<form method="post" action="#">
-								<div class="fields">
-									<div class="field">
-										<label for="name">Name</label>
-										<input type="text" name="name" id="name" />
-									</div>
-									<div class="field">
-										<label for="email">Email</label>
-										<input type="text" name="email" id="email" />
-									</div>
-									<div class="field">
-										<label for="message">Message</label>
-										<textarea name="message" id="message" rows="3"></textarea>
-									</div>
-								</div>
-								<ul class="actions">
-									<li><input type="submit" value="Send Message" /></li>
-								</ul>
-							</form>
-						</section>
-						<section class="split contact">
-							<section class="alt">
-								<h3>Address</h3>
-								<p>1234 Somewhere Road #87257<br />
-								Nashville, TN 00000-0000</p>
-							</section>
-							<section>
-								<h3>Phone</h3>
-								<p><a href="#">(000) 000-0000</a></p>
-							</section>
-							<section>
-								<h3>Email</h3>
-								<p><a href="#">info@untitled.tld</a></p>
-							</section>
-							<section>
-								<h3>Social</h3>
-								<ul class="icons alt">
-									<li><a href="#" class="icon brands alt fa-twitter"><span class="label">Twitter</span></a></li>
-									<li><a href="#" class="icon brands alt fa-facebook-f"><span class="label">Facebook</span></a></li>
-									<li><a href="#" class="icon brands alt fa-instagram"><span class="label">Instagram</span></a></li>
-									<li><a href="#" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
-								</ul>
-							</section>
-						</section>
-					</footer>
--->
 				<!-- Copyright -->
 					<div id="copyright">
-						<ul><li>&copy; DKProgrammer</li><li>Design: <a href="https://html5up.net">HTML5 UP</a></li></ul>
+						<ul><li>&copy; DKProgrammer</li></ul>
 					</div>
+				</div>
+			</div>
 
+						<!--<button id="modal-button-0" class="modal-button">Open Modal</button><!--Voice Inside-->
+						<!--<button id="modal-button-1" class="modal-button">Open Modal</button><!--Klick:Forensik-->
+						<!--<button id="modal-button-2" class="modal-button">Open Modal</button><!--Bunnyhop-->
+						<!--<button id="modal-button-3" class="modal-button">Open Modal</button><!--FoFaBe-->
+						<!--<button id="modal-button-4" class="modal-button">Open Modal</button><!--Light Project-->
+						<!--<button id="modal-button-5" class="modal-button">Open Modal</button><!--Us United-->
+						<!--<button id="modal-button-6" class="modal-button">Open Modal</button><!--AI Game-->
+						<!--<button id="modal-button-7" class="modal-button">Open Modal</button><!--Yoshi Jump-->
+			<!-- The Modal -->
+			<div id="modal-container-0" class="modal">
+				<!-- Modal content -->
+				<div class="modal-content">
+					<article>
+						<div class="modal-header">
+							<span id="close-button-0" class="close">&times;</span>
+							<h2>The Voice Inside</h2>
+						</div>
+						<div class="modal-body">
+							<a href="https://www.adk-games.com/" ><img src="https://steamcdn-a.akamaihd.net/steam/apps/1032280/header.jpg?t=1608807846" class="modal-img" alt="" /></a>
+							<p>The Voice Inside is a psychological horror adventure game with different & challenging game control types. Use the voice-control, or a modified controller & keyboard system to give the right commands & make it through a dark & abstract world. Try To Escape The Darkness!</p>
+						</div>
+						<div class="modal-footer">
+							<ul class="actions special">
+								<li><a href="https://www.adk-games.com/" class="button">Website</a></li>
+								<li><a href="The Voice Inside - Unity Connect.html" class="button">Documentation</a></li>
+							</ul>
+						</div>
+					</article>
+				</div>
+			</div>
+
+
+			<div id="modal-container-1" class="modal">
+				<!-- Modal content -->
+				<div class="modal-content">
+					<article>
+						<div class="modal-header">
+							<span id="close-button-1" class="close">&times;</span>
+							<h2>Klick:Forensik</h2>
+						</div>
+						<div class="modal-body">
+							<a href="images/pic03.jpg" class="image fit"><img src="images/pic03.jpg" alt="" /></a>
+							<p>Serious-Game around the topic „Weniger Kerzen auf den Gräbern!“ - 
+								Entwurf eines Blended-Learning-Konzepts zum 
+								Erkennen nicht natürlicher Todesfälle. In this Point&Click game you have to find all important evidences and decide whether or not it is a natural death cause.</p>
+								<p>Password is 'klick'</p>
+						</div>
+						<div class="modal-footer">
+							<ul class="actions special">
+								<li><a class="button" href="https://dk-programmer.github.io/Klick-Forensik/" target="popup" onclick="window.open('https://dk-programmer.github.io/Klick-Forensik/','name','width=800,height=600')">Open game in new window</a></li>
+							</ul>
+						</div>
+					</article>
+				</div>
+			</div>
+
+			<div id="modal-container-2" class="modal">
+				<!-- Modal content -->
+				<div class="modal-content">
+					<article>
+						<div class="modal-header">
+							<span id="close-button-2" class="close">&times;</span>
+							<h2>Bunny Hop!</h2>
+						</div>
+						<div class="modal-body">
+							<a href="Bunny Hop 2D - Unity Connect.html" class="image fit"><img src="images/bunnyhop.png" alt="" /></a>
+							<p>Easy concept but a lot of fun! Just draw a line and let your chosen Jumper bounce. But don't call it easy! Here comes the tricky part. Avoid obstacles, traps and enemies. You will have a hard time! But addiction warranted.</p>
+						</div>
+						<div class="modal-footer">
+							<ul class="actions special">
+								<li><a href="Bunny Hop 2D - Unity Connect.html" class="button">More Information</a></li>
+							</ul>
+						</div>
+					</article>
+				</div>
+			</div>
+
+
+			<div id="modal-container-3" class="modal">
+				<!-- Modal content -->
+				<div class="modal-content">
+					<article>
+						<div class="modal-header">
+							<span id="close-button-3" class="close">&times;</span>
+							<h2>The Voice Inside</h2>
+						</div>
+						<div class="modal-body">
+							<a href="https://www.adk-games.com/" ><img src="https://steamcdn-a.akamaihd.net/steam/apps/1032280/header.jpg?t=1608807846" class="modal-img" alt="" /></a>
+							<p>The Voice Inside is a psychological horror adventure game with different & challenging game control types. Use the voice-control, or a modified controller & keyboard system to give the right commands & make it through a dark & abstract world. Try To Escape The Darkness!</p>
+						</div>
+						<div class="modal-footer">
+							<ul class="actions special">
+								<li><a href="https://www.adk-games.com/" class="button">Website</a></li>
+								<li><a href="The Voice Inside - Unity Connect.html" class="button">Documentation</a></li>
+							</ul>
+						</div>
+					</article>
+				</div>
+			</div>
+
+
+			<div id="modal-container-4" class="modal">
+				<!-- Modal content -->
+				<div class="modal-content">
+					<article>
+						<div class="modal-header">
+							<span id="close-button-4" class="close">&times;</span>
+							<h2>The Voice Inside</h2>
+						</div>
+						<div class="modal-body">
+							<a href="https://www.adk-games.com/" ><img src="https://steamcdn-a.akamaihd.net/steam/apps/1032280/header.jpg?t=1608807846" class="modal-img" alt="" /></a>
+							<p>The Voice Inside is a psychological horror adventure game with different & challenging game control types. Use the voice-control, or a modified controller & keyboard system to give the right commands & make it through a dark & abstract world. Try To Escape The Darkness!</p>
+						</div>
+						<div class="modal-footer">
+							<ul class="actions special">
+								<li><a href="https://www.adk-games.com/" class="button">Website</a></li>
+								<li><a href="The Voice Inside - Unity Connect.html" class="button">Documentation</a></li>
+							</ul>
+						</div>
+					</article>
+				</div>
+			</div>
+
+
+			<div id="modal-container-5" class="modal">
+				<!-- Modal content -->
+				<div class="modal-content">
+					<article>
+						<div class="modal-header">
+							<span id ="close-button-5" class="close">&times;</span>
+							<h2>The Voice Inside</h2>
+						</div>
+						<div class="modal-body">
+							<a href="https://www.adk-games.com/" ><img src="https://steamcdn-a.akamaihd.net/steam/apps/1032280/header.jpg?t=1608807846" class="modal-img" alt="" /></a>
+							<p>The Voice Inside is a psychological horror adventure game with different & challenging game control types. Use the voice-control, or a modified controller & keyboard system to give the right commands & make it through a dark & abstract world. Try To Escape The Darkness!</p>
+						</div>
+						<div class="modal-footer">
+							<ul class="actions special">
+								<li><a href="https://www.adk-games.com/" class="button">Website</a></li>
+								<li><a href="The Voice Inside - Unity Connect.html" class="button">Documentation</a></li>
+							</ul>
+						</div>
+					</article>
+				</div>
 			</div>
 
 		<!-- Scripts -->
@@ -233,6 +671,6 @@
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
-
+			<script src="assets/js/modal.js"></script>
 	</body>
 </html>
