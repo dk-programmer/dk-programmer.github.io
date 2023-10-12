@@ -1,4 +1,4 @@
-for(var i = 0; i < 6; i++){
+for(var i = 0; i <= 8; i++){
     assign(i);
 }
 

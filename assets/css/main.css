@@ -2209,8 +2209,8 @@ input, select, textarea {
 	button,
 	.button {
 		background-color: transparent;
-		box-shadow: inset 0 0 0 2px #212931;
-		color: #212931 !important;
+		box-shadow: inset 0 0 0 1px #ffffff;
+		color: #ffffff !important;
 	}
 
 		input[type="submit"]:hover,
@@ -3012,8 +3012,8 @@ input, select, textarea {
 	}
 
 	table {
-		margin: 0 0 2rem 0;
-		width: 100%;
+		margin: auto;
+		width: auto;
 	}
 
 		table tbody tr {
@@ -3023,7 +3023,7 @@ input, select, textarea {
 		}
 
 		table td {
-			padding: 0.75rem 0.75rem;
+			padding: 0.1rem 0.1rem;
 		}
 
 		table th {
@@ -3034,6 +3034,7 @@ input, select, textarea {
 			line-height: 1.5;
 			padding: 0 0.75rem 0.75rem 0.75rem;
 			text-align: left;
+			
 			text-transform: uppercase;
 		}
 
@@ -3080,11 +3081,11 @@ input, select, textarea {
 			}
 
 	table tbody tr {
-		border-color: #eeeeee;
+		border-color: white;
 	}
 
 		table tbody tr:nth-child(2n + 1) {
-			background-color: rgba(220, 220, 220, 0.25);
+			background-color: rgba(220, 220, 220, 0);
 		}
 
 	table th {
@@ -3092,15 +3093,22 @@ input, select, textarea {
 	}
 
 	table thead {
-		border-bottom-color: #eeeeee;
+		border-bottom-color: white;
 	}
 
 	table tfoot {
-		border-top-color: #eeeeee;
+		border-top-color: white;
 	}
 
 	table.alt tbody tr td {
-		border-color: #eeeeee;
+		border-color: white;
+	}
+	table td{
+		text-align: left;
+		padding-right: 10px;
+		font-style: normal;
+		font-weight: 0;
+		font-family: 'Roboto', sans-serif;
 	}
 
 /* Pagination */
@@ -3290,7 +3298,7 @@ input, select, textarea {
 
 	#intro {
 		color: #ffffff;
-		padding: 8rem 4rem 6rem 4rem ;
+		padding: 8rem 0rem 6rem 0rem ;
 		-moz-align-items: center;
 		-webkit-align-items: center;
 		-ms-align-items: center;
@@ -3299,7 +3307,7 @@ input, select, textarea {
 		display: -webkit-flex;
 		display: -ms-flex;
 		display: flex;
-		-moz-flex-direction: column;
+		-moz-flex-direction: column; 
 		-webkit-flex-direction: column;
 		-ms-flex-direction: column;
 		flex-direction: column;
