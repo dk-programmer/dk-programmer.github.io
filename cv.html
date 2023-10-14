@@ -1,196 +1,331 @@
-
 <html>
-  <head>
-    <link rel="stylesheet" href="assets/css/cv.css" />
 
-  </head>
-  <body class="A4">
+<head>
+    <link rel="stylesheet" href="assets/css/cv.css" />
+</head>
+
+<body class="A4">
     <div class="sheet">
-      <button class="btn btn-print btn-sm btn-light" onClick="handlePrint()">
-        <i class="fa fa-print"></i>
-        Print
-      </button>
-      <div class="two-column resume">
-        <section class="resume__section resume__header">
-          <div class="resume__content">
-            <h1>Thiago Braga</h1>
-            <div class="info-item"><span class="info-label"><i class="fa fa-location-arrow"></i></span><span class="info-text">
-                770 Marçal de Arruda Campos St., Bauru, SP, Brazil,
-                Zip: 17063-060</span></div>
-            <div class="info-item"><span class="info-label"><i class="fa fa-envelope"></i></span><span class="info-text">contato@thiagobraga.org</span></div>
-            <div class="info-item"><span class="info-label"><i class="fa fa-phone"></i></span><span class="info-text">+55 14 99165 5873</span></div>
-          </div>
-        </section>
-        <div class="resume__columns">
-          <div class="resume__main">
-            <section class="resume__section resume__summary">
-              <div class="resume__content">
-                <div class="resume__section-title"><i class="fa fa-pencil-square-o"></i>
-                  <h2>Professional Summary</h2>
+        <input id="printpagebutton" type="button" value="Print this page" onclick="printpage()"/>
+        <div class="two-column resume">
+            <section class="resume__section resume__header">
+                <div class="resume__content">
+                    <h1>Dominik Kulpok</h1>
+                    <table style="width: 100%";>
+                        <tr>
+                            <td>
+                                <div>
+                                    <div class="info-item"><span class="info-label"><i
+                                                class="fa fa-location-arrow"></i></span><span
+                                            class="info-text">Hofzeichendamm 42, 13125 Berlin</span></div>
+                                    <div class="info-item"><span class="info-label"><i
+                                                class="fa fa-envelope"></i></span><span
+                                            class="info-text">dkprogrammer@yahoo.com</span></div>
+                                    <div class="info-item"><span class="info-label"><i
+                                                class="fa fa-phone"></i></span><span class="info-text">+49 30
+                                            12037543</span></div>
+                                </div>
+                            </td>
+                            <td style="right: 0;">
+                                <div>
+                                    <div class="info-item"><span class="info-label"><a
+                                                href="https://www.linkedin.com/in/dominik-kulpok/"
+                                                class="info-item icon brands fa-linkedin"></a></span><span
+                                            class="info-text">linkedin.com/in/dominik-kulpok</span></span></div>
+                                    <div class="info-item"><span class="info-label"><a
+                                                href="https://twitter.com/adk_games_DK"
+                                                class="icon brands fa-twitter"></a></span><span
+                                            class="info-text">twitter.com/adk_games_DK</span></span></div>
+                                    <div class="info-item"><span class="info-label"><a
+                                                href="https://www.instagram.com/dkprogrammer/"
+                                                class="icon brands fa-instagram"></a></span><span
+                                            class="info-text">instagram.com/dkprogrammer</span></span></div>
+                                    <div class="info-item"><span class="info-label"><a
+                                                href="https://github.com/dk-programmer"
+                                                class="icon brands fa-github"></a></span><span
+                                            class="info-text">github.com/dk-programmer</span></span></div>
+                                    <div class="info-item"><span class="info-label"><a
+                                                href="https://github.com/dk-programmer"
+                                                class="fa fa-globe" style="color: black;"></a></span><span
+                                            class="info-text">dk-programmer.github.io</span></span></div>
+                                </div>
+                            </td>
+                        </tr>
+                    </table>
                 </div>
-                <div class="other">
-                  <div class="other-info">
-                    <p>
-                      PHP & JavaScript developer + Devops Enthusiast with a
-                      decade of success leading teams in delivering appropriate
-                      technology solutions for desktop and mobile products.
-                    </p>
-                    <p>
-                      Comprehensive knowledge of enterprise architecture,
-                      agile methodologies, remote work, cloud services and
-                      web-based applications.
-                    </p>
-                  </div>
-                </div>
-              </div>
             </section>
-            <section class="resume__section resume__experience">
-              <div class="resume__content">
-                <div class="resume__section-title"><i class="fa fa-briefcase"></i>
-                  <h2>Employment History</h2>
+            <div class="resume__columns">
+                <div class="resume__main">
+                    <!--Summary-->
+                    <section class="resume__section resume__summary">
+                        <div class="resume__content">
+                            <div class="resume__section-title"><i class="fa fa-pen"></i>
+                                <h2>Professional Summary</h2>
+                            </div>
+                            <div class="other">
+                                <div class="other-info">
+                                    <p>
+                                        Game Developer with extensive experience in crafting educational games, most notably in the realm of forensic science at HWR Berlin. 
+                                        Demonstrated proficiency in implementing advanced game features, such as multiplayer functionalities and deterministic gameplay. 
+                                        Adept at tailoring applications based on client specifications. 
+                                        B.A. in Computer Science.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <!--Arbeit-->
+                    <section class="resume__section resume__experience">
+                        <div class="resume__content">
+                            <div class="resume__section-title"><i class="fa fa-briefcase"></i>
+                                <h2>Employment History</h2>
+                            </div>
+                            <!--Work HU-->
+                            <div class="xp-item">
+                                <div class="xp-job">
+                                    Game Developer (Part-Time)
+                                    <span>@ HWR Berlin</span><br /><small>Berlin, Germany</small>
+                                </div>
+                                <div class="xp-date">Okt. 2020 - Juli 2023</div>
+                                <div class="xp-detail">
+                                    <ul>
+                                        <li>Developement of a serious game (Klick:Forensik) for education in forensic science</li>
+                                        <li>Developement of a serious game (FoFaBe) for education in forensic science</li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                            <!--Work dt-->
+                            <div class="xp-item">
+                                <div class="xp-job">
+                                    Game Developer (Part-Time <small>Remote</small>)
+                                    <span>@ DT-Games</span>
+                                </div>
+                                <div class="xp-date">Okt. 2021 - Now</div>
+                                <div class="xp-detail">
+                                    <ul>
+                                        <li>Implementation of new game features and bugfixing</li>
+                                        <li>Developement of systems like: Multiplayer, Card Animation System, Deterministic Gameplay</li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                            <!--Work Light-->
+                            <div class="xp-item">
+                                <div class="xp-job">
+                                    Game Developer (Part-Time <small>Remote</small>)
+                                    <span>@ Lighting Reality</span>
+                                </div>
+                                <div class="xp-date">Sept. 2021 - Nov. 2021</div>
+                                <div class="xp-detail">
+                                    <ul>
+                                        <li>Customizing and creating the app according to customer requests.</li>
+                                        <li>Customizing the app for easy integration into Flutter.</li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                        </div>
+                    </section>
+
+                    <!--Bildung-->
+                    <section class="resume__section resume__experience">
+                        <div class="resume__content">
+                            <div class="resume__section-title"><i class="fa fa-graduation-cap"></i>
+                                <h2>Education</h2>
+                            </div>
+                            <!--University-->
+                            <div class="xp-item">
+                                <div class="xp-job">
+                                    Bachelor of Science - BS, Informatik
+                                    <span>@ Technische Universität Berlin</span><br /><small>Berlin, Germany</small>
+                                </div>
+                                <div class="xp-date">Okt. 2016 – Sept. 2023</div>
+                                <div>Relevant coursework: </div>
+                                <div class="xp-detail">
+                                    <ul>
+                                        <li>C, C++, C#, Java, Web development (HTML,CSS,JS,NodeJS,Bootstrap),Database
+                                            (MySQL)</li>
+                                        <li>object oriented programming (OOP), AI, Software engineering</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <!--Abi-->
+                            <div class="xp-item">
+                                <div class="xp-job">
+                                    Abitur (General University Entrance Qualification)
+                                    <span>@ OSZ IMT - Oberstufenzentrum Informations- und
+                                        Medizintechnik</span><br /><small>Berlin, Germany</small>
+                                </div>
+                                <div class="xp-date">Sept. 2014 – July. 2016</div>
+                            </div>
+                            <!--Ausbildung-->
+                            <div class="xp-item">
+                                <div class="xp-job">
+                                    Vocational Training - Electronics Engineer for Industrial Engineering
+                                    <span>@ Penta Electric</span><br /><small>Grenzach-Wyhlen, Germany</small>
+                                </div>
+                                <div class="xp-date">Sept. 2014 – July. 2016</div>
+                            </div>
+                        </div>
+                    </section>
                 </div>
-                <div class="xp-item">
-                  <div class="xp-job">
-                    Full Stack Developer / DevOps
-                    <span>@ Grupo Tesseract</span><br/><small>Bauru, Sao Paulo</small>
-                  </div>
-                  <div class="xp-date">Apr. 2017 – current</div>
-                  <div class="xp-detail">
-                    <ul>
-                      <li>
-                        Design, build or maintain web sites using Laravel,
-                        Bootstrap, Vue, React and WordPress
-                      </li>
-                      <li>Create scripting language tools</li>
-                      <li>Automate dev, builds and deploy tasks</li>
-                      <li>
-                        Maintain understanding of current web technologies or
-                        programming practices through continuing education,
-                        reading and sharing knowledge
-                      </li>
-                      <li>
-                        Develop databases that support web applications and
-                        web sites
-                      </li>
-                      <li>
-                        Develop and document style guidelines for web site
-                        content
-                      </li>
-                      <li>Recommend and implement performance improvements</li>
-                      <li>
-                        Select programming languages, design tools,
-                        or applications
-                      </li>
-                    </ul>
-                  </div>
+                <div class="resume__side">
+                    <section class="resume__section resume__skills">
+                        <div class="resume__content">
+                            <div class="resume__section-title"><i class="fa fa-align-center"></i>
+                                <h2>Skills</h2>
+                            </div>
+                            <div class="resume__text">
+                                <div class="extra">
+                                    <div class="extra-info">C#<br /><small>Unity3D</small></div>
+                                    <div class="extra-details">
+                                        <div class="extra-details__progress" style="width: 90%"></div>
+                                    </div>
+                                </div>
+                                <div class="extra">
+                                    <div class="extra-info">Java<br /><small>Native, LibGDX</small></div>
+                                    <div class="extra-details">
+                                        <div class="extra-details__progress" style="width: 50%"></div>
+                                    </div>
+                                </div>
+                                <div class="extra">
+                                    <div class="extra-info">Web<br /><small>HTML5 · CSS · JavaScript · NodeJS</small>
+                                    </div>
+                                    <div class="extra-details">
+                                        <div class="extra-details__progress" style="width: 20%"></div>
+                                    </div>
+                                </div>
+                                <div class="extra">
+                                    <div class="extra-info">Game Developement<br /><small>System Design · UI · Level
+                                            Design</small></div>
+                                    <div class="extra-details">
+                                        <div class="extra-details__progress" style="width: 80%"></div>
+                                    </div>
+                                </div>
+                                <div class="extra">
+                                    <div class="extra-info">Databases<br /><small>MySQL</small></div>
+                                    <div class="extra-details">
+                                        <div class="extra-details__progress" style="width: 50%"></div>
+                                    </div>
+                                </div>
+                                <div class="extra">
+                                    <div class="extra-info">Elektronics<br /><small>Small Projects, Arduino, NodeMCU</small></div>
+                                    <div class="extra-details">
+                                        <div class="extra-details__progress" style="width: 50%"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    
+                    <section class="resume__section resume__languages">
+                        <div class="resume__content">
+                            <div class="resume__section-title"><i class="fa fa-globe"></i>
+                                <h2>Languages</h2>
+                            </div>
+                            <div class="extra">
+                                <div class="extra-info">German <small>(native)</small></div>
+                                <div class="extra-details">
+                                    <div class="extra-details__progress" style="width: 100%"></div>
+                                </div>
+                            </div>
+                            <div class="extra">
+                                <div class="extra-info">English</div>
+                                <div class="extra-details">
+                                    <div class="extra-details__progress" style="width: 80%"></div>
+                                </div>
+                            </div>
+                            <div class="extra">
+                                <div class="extra-info">Spanish</div>
+                                <div class="extra-details">
+                                    <div class="extra-details__progress" style="width: 20%"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>                        
+                    
+
+                    <section class="resume__section resume__skills">
+                        <div class="resume__content">
+                            <div class="resume__section-title"><i class="fa fa-icons"></i>
+                                <h2>Interests</h2>
+                            </div>
+                            <div class="interestcontainer">
+                                <div class="interestcontainer_element">
+                                    <div class="interestcontainericon">
+                                        <i class="fa fa-gamepad"></i>
+                                    </div> 
+                                    Gaming                              
+                                </div>
+
+                                <div class="interestcontainer_element">
+                                    <div class="interestcontainericon">
+                                        <i class="fa fa-plane"></i>
+                                    </div> 
+                                    Traveling                             
+                                </div>
+                                
+                                <div class="interestcontainer_element">
+                                    <div class="interestcontainericon">
+                                        <i class="fa fa-seedling"></i>
+                                    </div> 
+                                    Gardening                        
+                                </div>
+
+                                <div class="interestcontainer_element">
+                                    <div class="interestcontainericon">
+                                        <i class="fa fa-code"></i>
+                                    </div> 
+                                    Developing                              
+                                </div>
+
+                                <div class="interestcontainer_element">
+                                    <div class="interestcontainericon">
+                                        <i class="fa fa-microchip"></i>
+                                    </div> 
+                                    Electronics                             
+                                </div>
+                                <div class="interestcontainer_element">
+                                    <div class="interestcontainericon">
+                                        <i class="fa fa-hammer"></i>
+                                    </div> 
+                                    DIY                            
+                                </div>
+                                
+                            </div>
+                        </div>
+                    </section>
                 </div>
-                <div class="xp-item">
-                  <div class="xp-job">
-                    Full Stack Developer
-                    <span>@ Jurid Publicações Eletrônicas</span><br/><small>Bauru, Sao Paulo</small>
-                  </div>
-                  <div class="xp-date">Aug. 2018 – Apr. 2020</div>
-                  <div class="xp-detail">
-                    <ul>
-                      <li>
-                        Build or maintain web sites using native PHP, Python
-                        and JavaScript
-                      </li>
-                      <li>
-                        Maintain and improve production databases running on
-                        Elasticsearch, Redis, PostgreSQL and MySQL
-                      </li>
-                      <li>Provide backup and maintenance of GNU/Linux servers</li>
-                      <li>Provide documentation for existent and new applications</li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-            </section>
-          </div>
-          <div class="resume__side">
-            <section class="resume__section resume__skills">
-              <div class="resume__content">
-                <div class="resume__section-title"><i class="fa fa-align-center"></i>
-                  <h2>Skills</h2>
-                </div>
-                <div class="resume__text">
-                  <div class="extra">
-                    <div class="extra-info">PHP<br/><small>PHP 5 · PHP 7 · Laravel</small></div>
-                    <div class="extra-details">
-                      <div class="extra-details__progress" style="width: 90%"></div>
+            </div>
+            <!--Footnote-->
+            <div class="resume__columns">
+                <section class="resume__section resume__languages">
+                    <div class="resume__content">
+                        <div class="resume__section-title"><i class="fa fa-handshake"></i>
+                            <h2>Softskills</h2>
+                        </div>
+                        <div class="extra">
+                            <div class="tag-container">
+                                <div class="tag gametag">Teamwork</div>
+                                <div class="tag gametag">Independence</div>
+                                <div class="tag gametag">Integration</div>
+                                <div class="tag gametag">Commitment</div>
+                                <div class="tag gametag">Learning Drive</div>
+                                <div class="tag gametag">Motivation & Persistence</div>
+                                <div class="tag gametag">Strategic Approach</div>
+                                <div class="tag gametag">Open-mindedness Curiosity</div>
+                                <div class="tag gametag">Curiosity</div>
+                            </div>
+                        </div>
                     </div>
-                  </div>
-                  <div class="extra">
-                    <div class="extra-info">JavaScript<br/><small>React · React Native · Vue</small></div>
-                    <div class="extra-details">
-                      <div class="extra-details__progress" style="width: 87%"></div>
-                    </div>
-                  </div>
-                  <div class="extra">
-                    <div class="extra-info">HTML<br/><small>HTML5 · Markdown · Pug</small></div>
-                    <div class="extra-details">
-                      <div class="extra-details__progress" style="width: 100%"></div>
-                    </div>
-                  </div>
-                  <div class="extra">
-                    <div class="extra-info">CSS<br/><small>Stylus · Sass · Bootstrap</small></div>
-                    <div class="extra-details">
-                      <div class="extra-details__progress" style="width: 100%"></div>
-                    </div>
-                  </div>
-                  <div class="extra">
-                    <div class="extra-info">DevOps<br/><small>Docker · Shell · AWS · CI/CD</small></div>
-                    <div class="extra-details">
-                      <div class="extra-details__progress" style="width: 82%"></div>
-                    </div>
-                  </div>
-                  <div class="extra">
-                    <div class="extra-info">Databases<br/><small>PostgreSQL · MySQL · Elasticsearch · Redis</small></div>
-                    <div class="extra-details">
-                      <div class="extra-details__progress" style="width: 80%"></div>
-                    </div>
-                  </div>
-                  <div class="extra">
-                    <div class="extra-info">Operating Systems<br/><small>
-                        <i class="fa fa-linux"></i> GNU/Linux ·
-                        <i class="fa fa-apple"></i> Mac OS ·
-                        <i class="fa fa-windows"></i> Windows</small></div>
-                    <div class="extra-details">
-                      <div class="extra-details__progress" style="width: 90%"></div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </section>
-            <section class="resume__section resume__languages">
-              <div class="resume__content">
-                <div class="resume__section-title"><i class="fa fa-globe"></i>
-                  <h2>Languages</h2>
-                </div>
-                <div class="extra">
-                  <div class="extra-info">Portuguese <small>(native)</small></div>
-                  <div class="extra-details">
-                    <div class="extra-details__progress" style="width: 100%"></div>
-                  </div>
-                </div>
-                <div class="extra">
-                  <div class="extra-info">English</div>
-                  <div class="extra-details">
-                    <div class="extra-details__progress" style="width: 65%"></div>
-                  </div>
-                </div>
-                <div class="extra">
-                  <div class="extra-info">Spanish</div>
-                  <div class="extra-details">
-                    <div class="extra-details__progress" style="width: 20%"></div>
-                  </div>
-                </div>
-              </div>
-            </section>
-          </div>
+                </section>
+
+
+            </div>
         </div>
-      </div>
     </div>
-  </body>
+</body>
+<script src="assets/js/cv.js"></script>
+
 </html>

@@ -2098,13 +2098,13 @@ input, select, textarea {
 		input[type="reset"].icon:before,
 		input[type="button"].icon:before,
 		button.icon:before,
-		.button.icon:before {
-			margin-right: 0.5rem;
-		}
-
+		
 		input[type="submit"].icon.solo,
 		input[type="reset"].icon.solo,
 		input[type="button"].icon.solo,
+		.button.icon:before {
+			margin-right: 0.5rem;
+		}
 		button.icon.solo,
 		.button.icon.solo {
 			position: relative;
