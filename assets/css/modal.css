@@ -42,10 +42,7 @@
     animation-name: animatetop;
     animation-duration: 0.4s;
 
-    float: left;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
+
   }
 
   .modal-body p,li{
@@ -120,6 +117,11 @@
     position: absolute;
     font-size: 28px;
     font-weight: bold;
+    border: white solid 2px;
+    line-height: 45px;
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
   }
   
   .close:hover,
