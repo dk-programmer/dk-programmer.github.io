@@ -35,6 +35,21 @@ ul {
   margin-inline-start: 0px;
   margin-inline-end: 0px;
   padding-inline-start: 40px;
+  margin-right: 1em;
+  
+
+}
+
+li{
+
+	text-align: justify;
+	text-align-last: left;
+}
+
+p{
+  hyphens: auto; 
+	text-align: justify;
+  text-align-last: left;
 }
 
 body {
@@ -74,7 +89,7 @@ body {
 }
 .resume p {
   margin-bottom: 1em;
-  margin-left: 1em;
+  margin-left: 0em;
 }
 .resume p:last-child {
   margin-bottom: 0;
@@ -87,11 +102,17 @@ body {
   font-family: 'Open Sans', sans-serif;
   font-size: 0.95em;
 }
-.resume .resume__header {
-  padding: 2em 4em 0;
+.resume {
+  margin-bottom: 0.1em;
 }
-.resume .resume__section {
-  margin-bottom: 1em;
+
+.resume__section{
+  margin-bottom: 0.5em;
+}
+
+.resume .resume__header {
+  padding: 1.5em 4em 0;
+  margin-bottom: 0.1em;
 }
 .resume .resume__section:last-child {
   padding-bottom: 0;
@@ -159,8 +180,27 @@ body {
 }
 .resume .xp-item {
   margin-bottom: 1em;
-  margin-left: 1em;
 }
+
+.xp-item::after {
+  content: "";
+  display: flex;
+  position:relative;
+  background: linear-gradient(90deg, rgba(46,108,146,0) 0%, rgba(46,108,146,1) 20%, rgba(46,108,146,1) 80%, rgba(46,108,146,0) 100%);
+  width: 100%;
+
+  height: 1px !important;
+  bottom: -7px;
+}
+.xp-item:last-child::after {
+  content: "";
+  display: flex;
+  background: linear-gradient(90deg, rgba(46,108,146,0) 0%, rgba(46,108,146,1) 20%, rgba(46,108,146,1) 80%, rgba(46,108,146,0) 100%);
+  width: 0%;
+  right: 10%;
+  height: 0em;
+}
+
 .resume .xp-item:last-child {
   margin-bottom: 0;
 }
@@ -168,7 +208,9 @@ body {
   font-size: 1.05em;
   font-weight: 600;
   line-height: 1.25;
-  margin-left: -1em;
+  display: flex;
+  justify-content: space-between;
+  margin-right: 1em;
 }
 .resume .xp-job span,
 .resume .xp-job small {
@@ -181,6 +223,7 @@ body {
   font-size: 0.8em;
   margin-top: 0.em;
   margin-bottom: 0em;
+  text-align: right;
   color: #5695cd;
 }
 .resume .extra {
@@ -204,6 +247,7 @@ body {
   width: 100%;
   height: 5px;
   position: relative;
+  
 }
 .resume .extra-details__progress {
   background-color: #5695cd;
@@ -294,6 +338,7 @@ body {
 
   .interestcontainericon{
 
+    width: auto;
     margin: auto;
     font-size: 1.14em;
     background-color: #3185cf;
@@ -311,7 +356,7 @@ body {
 
   .interestcontainer_element{
     padding: 0.2em;
-    margin: auto;
+    
     text-align: center;
     width: 60px;
   }
@@ -323,9 +368,21 @@ body {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
-    justify-content: center;
+    justify-content: le;
     padding: 0,1em,1em,1em;
     margin-top: 2em;
+  }
+
+  .other{
+    height: auto;
+  }
+
+
+  @media print {
+    .pagebreaker {
+      page-break-after: always;
+      height: 0;
+    }
   }
 
 
